@@ -373,6 +373,6 @@ enrichmentNetwork.clusterLabels <- function(pathways, fontSize = 5, repelLabels 
       data.table(x = midPoint$x, y = midPoint$y, label = splitWords(cluster))
     }
 
-    geom_text(data = labels, aes(x = x, y = y, label = label), size = fontSize, segment.size = 0.25)
+    geom_text(data = labels, aes(x = x, y = y, label = label), size = fontSize)
   }
 }
