@@ -194,7 +194,7 @@ enrichmentNetwork.plot <- function(dt,
 
   plot <- plot +
     geom_link0(data = lines, aes(x = xStart, y = yStart, xend = xEnd, yend = yEnd), size = 0.25, alpha = 0.2) +
-    geom_point(data = coordinates, aes(x = x, y = y, ID = ID, color = color, size = size, Cluster = Cluster, `Cluster size` = `Cluster size`)) +
+    geom_point(data = coordinates, aes(x = x, y = y, color = color, size = size)) +
     theme(axis.title.x = element_blank(),
           axis.text.x = element_blank(),
           axis.ticks.x = element_blank(),
