@@ -1,13 +1,12 @@
 Package: pathExplore
 Type: Package
-Title: What the package does (short line)
+Title: Clustering and Visualization of Pathway Enrichment Results
 Version: 1.0
-Date: 2022-04-30
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-RoxygenNote: 7.2.0
+Date: 2023-02-14
+Authors@R: c(person(given = "Ieva", family = "Kerseviciute", email = "kerseviciute.ieva@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "https://orcid.org/0000-0002-9353-038X")))
+Description: Clustering and visualization of pathway enrichment results.
+License: MIT + file LICENSE
+RoxygenNote: 7.2.3
 Encoding: UTF-8
 Imports:
     MCL,
@@ -20,6 +19,9 @@ Imports:
     ggforce,
     ggplot2,
     igraph,
-    dplyr
+    dplyr,
+    ggrepel
 Suggests:
     Spectrum
+URL: https://github.com/ievaKer/pathExplore
+BugReports: https://github.com/ievaKer/pathExplore/issues
